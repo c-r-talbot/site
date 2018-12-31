@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Your page title here :)</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css?family=Arvo:400,700|B612:400,700|Bree+Serif|Abril+Fatface|Anton|Dosis|Major+Mono+Display|Staatliches" rel="stylesheet">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="css/skeleton.css"> -->
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+  <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+        <div class = "row" style = "position:relative">
+            <div class = "u-full-width u-text-center" 
+                 style = "margin-top: 5%; ">
+                <h3 id="name"></h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class = "u-full-width" style = "position:relative; margin-top:5%; padding:5%">
+            <div class = "u-center-abs" style = "padding:5%">
+                <a class='button button-primary' id = "button_a" href ='#'>Audio</a>
+                <a class='button button-primary' id = "button_b" href ='#'>Video</a>
+                <a class='button button-primary' id = "button_b" href ='#'>Bio</a>
+            </div>
+            </div>
+        </div>
+
+        <div class = "row" style = "margin-top:10%">
+                <div class = "offset-by-one column">
+                <p id = "intro"></p>
+                </div>  
+        </div>
+
+        <div class = "row">
+            <img  class = "offset-by-one column one-half column" src = "/images/ct.jpg">
+        </div> 
+    </div>
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<script>
+    let post = document.getElementById("name")
+    post.innerHTML = "Christopher Talbot"
+    let intro = document.getElementById("intro")
+    intro.innerHTML = "This could be a great amount of text, but how do we decide to then populate it from a server-side file?"
+    let buttona = document.getElementById("button_a")
+    let ray = ['a','b','c','d','e','f','g','h']
+    let i = 0 
+    setInterval(function(){
+        buttona.innerHTML = ray[i]
+        if(i < ray.length-1){
+            i++;
+        }
+        else {
+            i = 0;
+        }
+    },1000)
+</script>
+</body>
+</html>
