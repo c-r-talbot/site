@@ -3,7 +3,7 @@
 body {
 font-family: 'Arvo';
 background-color: whitesmoke;
-padding-top: 5rem;
+padding-top: 3.6rem;
 }
 .starter-template {
 padding: 3rem 1.5rem;
@@ -11,14 +11,17 @@ text-align: center;
 }
 
 #audiodiv{
-    background-color: peachpuff
+    background-color: peachpuff;
+    height:100%;
 }
 
 
 #videodiv{
-    background-color: darkcyan
+    background-color: darkcyan;
+    height:100%;
 }
 
 #biodiv{
-    background-color: crimson
+    background-color: crimson;
+    height:100%;
 }
