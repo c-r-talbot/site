@@ -42,7 +42,7 @@
 <body>
 
     <nav id="navbar-example2" class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#">Chris Talbot</a>
+        <a class="navbar-brand" href="/">Chris Talbot</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -52,14 +52,14 @@
             <li class="nav-item">
                 <a class="nav-link" href="#Audio">Audio</a>
             </li>
-            <li class="nav-item">
+            <li id class="nav-item">
             <a class="nav-link" href="#Video">Video</a>
             </li>
             <li class="nav-item">
             <a class="nav-link" href="#Bio">Bio</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="cal">Calendar</a>
+            <a class="nav-link" href="#Calendar">Calendar</a>
             </li>
             <!-- <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="https://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu</a>
@@ -77,23 +77,21 @@
         </div>
     </nav>
 
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
-                <div id = "audiodiv" class="col-sm">
-                    <h4 style = "background-color:aliceblue" >Audio</h4>
-                    <!-- <img src="images/ct.JPG" alt="..." class="img-fluid"> -->
-                </div>
-                <div id = "videodiv" class="col-sm">
-                    <h4>Video</h4>
-                </div>
-                <div id = "biodiv" class="col-sm">  
-                    <h4>Bio</h4>
+                <div id = "calendar" class="col-md">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/Ensemble44_Cecilia.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">February 3, 2018</h5>
+                            <p class="card-text">
+                            <h5>Ensemble 44</h5>Loring Greenough House</p>
+                            <a href="#" class="btn btn-dark">Go somewhere</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-
-Have you ever tried just playing with plain text in a webpage? it's pretty wild
-    </main>
 
 
 
@@ -105,15 +103,15 @@ Have you ever tried just playing with plain text in a webpage? it's pretty wild
     <script src="../../assets/js/vendor/popper.min.js"></script>
     <script src="bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
     <script>
-        let main_text = document.getElementById("hash1")
-        let lead = document.getElementById("lead")
-        let main = document.getElementById("main_container")
-        let audiodiv = document.getElementById("audiodiv")
-        let ray = ['a','b','c','d','e','f','g','h']
-        let colors = ['blue','green','red','violet']
-        main.style.backgroundColor = 'blue'
+        // let main_text = document.getElementById("hash1")
+        // let lead = document.getElementById("lead")
+        // let main = document.getElementById("main_container")
+        // let audiodiv = document.getElementById("audiodiv")
+        // let ray = ['a','b','c','d','e','f','g','h']
+        // let colors = ['blue','green','red','violet']
+        // main.style.backgroundColor = 'blue'
 
-        function highlight()
+        // function highlight()
 
         
         // let i = 0;

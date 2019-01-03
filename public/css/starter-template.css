@@ -2,10 +2,23 @@
 
 body {
 font-family: 'Arvo';
-background-color: orange;
+background-color: whitesmoke;
 padding-top: 5rem;
 }
 .starter-template {
 padding: 3rem 1.5rem;
 text-align: center;
+}
+
+#audiodiv{
+    background-color: peachpuff
+}
+
+
+#videodiv{
+    background-color: darkcyan
+}
+
+#biodiv{
+    background-color: crimson
 }
