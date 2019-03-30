@@ -5,7 +5,9 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-var calRouter = require('./routes/cal')
+var calRouter = require('./routes/cal');
+var audioRouter = require('./routes/audio');
+var videoRouter = require('./routes/video');
 
 var app = express();
 
@@ -19,5 +21,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/cal', calRouter);
+app.use('/audio', audioRouter);
+app.use('/video', videoRouter);
 
 module.exports = app;

@@ -2,15 +2,18 @@
 
 body {
 font-family: 'Arvo';
-background-color: darkolivegreen;
+background-color: rgb(179, 179, 179);
+background-image: url("/images/spectacle_island.jpg");
+background-repeat: no-repeat;
+background-size: 1080px 720px;
 padding-top: 3.6rem;
 }
 
 .navbar {
-    background-color: darkolivegreen;
+    background-color: rgb(255, 255, 255)n;
   }
   .navbar .navbar-brand {
-    color: #ecf0f1;
+    color: #1c5a69;
   }
   .navbar .navbar-brand:hover,
   .navbar .navbar-brand:focus {
@@ -141,24 +144,37 @@ text-align: center;
 }
 
 #audiodiv{
-    background-color: rgb(250, 215, 195);
-    height:70%;
+    /* background-color: rgb(255, 233, 221); */
+    height:30%;
+    /* opacity:.10; */
     /* padding-right:2rem; */
 }
 
 
 #videodiv{
-    background-color: navy;
-    height:70%;
+    /* background-color: rgb(96, 96, 128); */
+    height:30%;
+    /* opacity: .10; */
     /* padding-left:2rem;
     padding-right:2rem; */
 
 }
 
-#biodiv{
-    background-color: crimson;
-    height:70%;
+#caldiv{
+    /* background-color: rgb(218, 76, 104); */
+    height:30%;
+    /* opacity:.1; */
     /* padding-left: 2rem; */
+}
+
+#biodiv{
+  /* background-color: rgb(218, 76, 104); */
+  height:30%;
+  /* opacity:.1; */
+  /* padding-left: 2rem; */
+}
+#biodiv p{
+  /* background-color: rgb(218, 76, 104); */
 }
 
 #mainwrapper{
@@ -168,19 +184,27 @@ text-align: center;
 }
 
 .section-title{
-  color: rgb(44,32,11);
+  color: rgb(46, 82, 70);
+  /* opacity:100%; */
   /* color: black; */
 }
 
 .section-title-dark{
-  color: #ffbbbc;
+  color: #fc9fa1;
+  /* opacity:100%; */
   /* color: black; */
 }
 
 .section-title-dark:hover{
   color:rgb(44,32,11);
+  /* opacity:100%; */
+}
+
+.section-title-alt:hover{
+  color:rgb(44,32,11);
 }
 
 .section-title:hover{
-  color: #ffbbbc;
+  color: black;
+  /* opacity:100%; */
 }

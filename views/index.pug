@@ -3,14 +3,16 @@ block content
 
     div(id = "previewcont" class = "container-fluid")
         div(class = "row")
-            div(id = "audiodiv" class = "col-sm-3 h-75 overflow:scroll")
-                h4(class = "section-title") Audio
-            div(id = "videodiv" class = "col-sm-3 h-75 overflow:scroll")
+            div(id = "audiodiv" class = "col-sm-3 h-25 overflow:scroll")
+                h4(class = "section-title") 
+                    a(href = "/audio") Audio
+                div(id = "audiocont" class = "row overflow:none")
+
+            div(id = "videodiv" class = "col-sm-3 h-25 overflow:scroll")
                 h4(class = "section-title-dark") Video
-            div(id = "biodiv" class = "col-sm-3 h-75 overflow:scroll")
+            div(id = "caldiv" class = "col-sm-3 h-25 overflow:scroll")
                 h4(class = "section-title") Calendar
-            div(id = "ffff" class = "col-sm-3 h-75 d-inline-block" style = "background-color:white; overflow:scroll")
-                h4(class = "section-title") Bio
+            div(id = "biodiv" class = "col-sm-3 h-25 d-inline-block" style = "overflow:scroll")
+                h4(class = "section-title") Bio & Contact
                 p Chris Talbot is a bass-baritone from Boston, MA
-                //- img(src = "/images/ct.jpg" class = "img-fluid")
         
