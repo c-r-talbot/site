@@ -8,6 +8,7 @@ var usersRouter = require('./routes/users');
 var calRouter = require('./routes/cal');
 var audioRouter = require('./routes/audio');
 var videoRouter = require('./routes/video');
+var timeLineRouter = require('./routes/timeline');
 
 var app = express();
 
@@ -23,5 +24,6 @@ app.use('/users', usersRouter);
 app.use('/cal', calRouter);
 app.use('/audio', audioRouter);
 app.use('/video', videoRouter);
+app.use('/timeline', timeLineRouter);
 
 module.exports = app;
